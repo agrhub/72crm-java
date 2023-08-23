@@ -1,0 +1,364 @@
+06-Jan-2021 05:43:24.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+06-Jan-2021 05:43:24.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+06-Jan-2021 05:43:24.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+06-Jan-2021 05:43:24.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Jan-2021 05:43:24.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1029-gcp
+06-Jan-2021 05:43:24.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2021 05:43:24.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+06-Jan-2021 05:43:24.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_275-8u275-b01-0ubuntu1~20.04-b01
+06-Jan-2021 05:43:24.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+06-Jan-2021 05:43:24.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+06-Jan-2021 05:43:24.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+06-Jan-2021 05:43:24.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+06-Jan-2021 05:43:24.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2021 05:43:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+06-Jan-2021 05:43:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+06-Jan-2021 05:43:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2021 05:43:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2021 05:43:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Jan-2021 05:43:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+06-Jan-2021 05:43:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+06-Jan-2021 05:43:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+06-Jan-2021 05:43:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Jan-2021 05:43:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+06-Jan-2021 05:43:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+06-Jan-2021 05:43:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+06-Jan-2021 05:43:24.217 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Jan-2021 05:43:25.433 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2021 05:43:25.554 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1977] milliseconds
+06-Jan-2021 05:43:25.636 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2021 05:43:25.637 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+06-Jan-2021 05:43:25.666 SEVERE [main] org.apache.catalina.startup.HostConfig.beforeStart Unable to create directory for deployment: [/opt/tomcat/conf/Catalina/localhost]
+06-Jan-2021 05:43:25.707 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/crm.war]
+06-Jan-2021 05:43:31.456 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-06 05:43:32,519 [INFO][main][DruidDataSource.java:785] {dataSource-1} inited
+Sql: select role_id from `72crm_admin_role` where label = 1
+Sql: select role_id from `72crm_admin_role` where label = 2
+Sql: select role_id from `72crm_admin_role` where label = 3
+06-Jan-2021 05:43:34.120 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/crm.war] has finished in [8,408] ms
+06-Jan-2021 05:43:34.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/examples]
+06-Jan-2021 05:43:34.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/examples] has finished in [636] ms
+06-Jan-2021 05:43:34.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/docs]
+06-Jan-2021 05:43:34.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/docs] has finished in [41] ms
+06-Jan-2021 05:43:34.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/host-manager]
+06-Jan-2021 05:43:34.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/host-manager] has finished in [49] ms
+06-Jan-2021 05:43:34.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/manager]
+06-Jan-2021 05:43:34.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/manager] has finished in [119] ms
+06-Jan-2021 05:43:34.983 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2021 05:43:35.001 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9446] milliseconds
+Sql: select * from 72crm_admin_config where name =? limit 0,1
+
+JFinal-4.5 action report -------- 2021-01-06 05:43:57 --------------------------
+Url         : OPTIONS /system/user/queryLoginUser
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminUserController.(AdminUserController.java:1)
+Method      : queryLoginUser
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:43:57 --------------------------
+Url         : OPTIONS /system/role/auth
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminRoleController.(AdminRoleController.java:1)
+Method      : auth
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:43:57 --------------------------
+Url         : POST /sysConfig/querySysConfig
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminSysConfigController.(AdminSysConfigController.java:1)
+Method      : querySysConfig
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql:       select a.*,(SELECT name FROM 72crm_admin_dept WHERE dept_id = a.dept_id) as deptName,(SELECT realname FROM 72crm_admin_user WHERE user_id=a.parent_id) as parentName from 72crm_admin_user as a where a.user_id = ?
+
+Sql:       SELECT role_id FROM 72crm_admin_user_role as a WHERE a.user_id=?
+
+Sql:       SELECT  c.realm,c.menu_id,c.parent_id FROM 72crm_admin_menu as c
+
+Sql:       SELECT role_id FROM 72crm_admin_user_role as a WHERE a.user_id=?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+
+JFinal-4.5 action report -------- 2021-01-06 05:43:58 --------------------------
+Url         : POST /system/user/queryLoginUser
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminUserController.(AdminUserController.java:1)
+Method      : queryLoginUser
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql: select name from 72crm_admin_config where name in ('oa','crm','project') and status = 0
+
+JFinal-4.5 action report -------- 2021-01-06 05:43:59 --------------------------
+Url         : POST /system/role/auth
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminRoleController.(AdminRoleController.java:1)
+Method      : auth
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:02 --------------------------
+Url         : OPTIONS /CrmBackLog/num
+Controller  : com.kakarote.crm9.erp.crm.controller.CrmBackLogController.(CrmBackLogController.java:1)
+Method      : num
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.crm.common.CrmInterceptor.(CrmInterceptor.java:1)
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:02 --------------------------
+Url         : OPTIONS /CrmCustomer/getRulesSetting
+Controller  : com.kakarote.crm9.erp.crm.controller.CrmCustomerController.(CrmCustomerController.java:1)
+Method      : getRulesSetting
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.crm.common.CrmInterceptor.(CrmInterceptor.java:1)
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:03 --------------------------
+Url         : OPTIONS /scene/queryScene
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminSceneController.(AdminSceneController.java:1)
+Method      : queryScene
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql:       SELECT role_id FROM 72crm_admin_user_role as a WHERE a.user_id=?
+
+Sql:       SELECT  c.realm,c.menu_id,c.parent_id FROM 72crm_admin_menu as c
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql: select name from 72crm_admin_config where name in ('oa','crm','project') and status = 0
+Sql:   select count(*) from 72crm_crm_customer
+  where customer_id not in (IFNULL((select GROUP_CONCAT(types_id) from 72crm_admin_record where types = 'crm_customer' and to_days(create_time) = to_days(now())),0))
+  and to_days(next_time) = to_days(now()) and owner_user_id = ?
+
+Sql:   select count(*) from 72crm_crm_customer as a
+  where followup = 0
+  and owner_user_id = ?
+
+Sql: select * from 72crm_admin_config where name =? limit 0,1
+Sql: select * from 72crm_admin_config where name =? limit 0,1
+Sql: select * from 72crm_admin_config where name =? limit 0,1
+Sql: select * from 72crm_admin_config where name =? limit 0,1
+Sql:   select count(*) from 72crm_crm_customer as a
+  where owner_user_id is not null and deal_status =0 and is_lock = 0  and owner_user_id = ? and
+      ((to_days(now()) - to_days(IFNULL((
+            SELECT car.create_time
+            FROM 72crm_admin_record as car
+            where car.types = 'crm_customer' and car.types_id = a.customer_id ORDER BY car.create_time DESC LIMIT 1)
+      ,a.create_time))) between ? and ? or (to_days(now()) - to_days(create_time)) between ? and ?)
+
+Sql:   select count(*) from 72crm_crm_leads as a
+  where followup = 0
+  and is_transform = 0  and owner_user_id = ?
+
+Sql: select * from 72crm_admin_config where name =? limit 0,1
+Sql:   select count(*) from 72crm_crm_contract as a
+  where a.check_status = 1 and  to_days(a.end_time) >= to_days(now()) and to_days(a.end_time) <= to_days(now()) + IFNULL(?,0) and a.owner_user_id = ?
+
+Sql:   select  count(*) from 72crm_crm_contract as a inner join 72crm_admin_examine_record as b on a.examine_record_id = b.record_id left join 72crm_admin_examine_log as c on b.record_id = c.record_id where c.is_recheck != 1 and ifnull(b.examine_step_id, 1) = ifnull(c.examine_step_id, 1) and
+   a.check_status in (0,3) and c.examine_status in (0,3) and c.examine_user = ?
+
+Sql:     select count(*) from 72crm_crm_receivables as a inner join 72crm_admin_examine_record as b on a.examine_record_id = b.record_id left join 72crm_admin_examine_log as c on b.record_id = c.record_id where ifnull(b.examine_step_id, 1) = ifnull(c.examine_step_id, 1) and
+    a.check_status in (0,3) and c.examine_status in (0,3) and c.examine_user = ?
+
+Sql:   select count(*)
+  from 72crm_crm_receivables_plan as a inner join 72crm_crm_customer as b on a.customer_id = b.customer_id
+  inner join 72crm_crm_contract as c on a.contract_id = c.contract_id
+  where to_days(a.return_date) >= to_days(now()) and to_days(a.return_date) <= to_days(now())+a.remind
+  and receivables_id is null and c.owner_user_id = ?
+
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:04 --------------------------
+Url         : POST /CrmBackLog/num
+Controller  : com.kakarote.crm9.erp.crm.controller.CrmBackLogController.(CrmBackLogController.java:1)
+Method      : num
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.crm.common.CrmInterceptor.(CrmInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql: select value from 72crm_admin_config where name = 'customerPoolSettingDealDays'
+Sql: select value from 72crm_admin_config where name = 'customerPoolSettingFollowupDays'
+Sql: select status from 72crm_admin_config where name = 'customerPoolSetting'
+Sql: select * from 72crm_admin_config where name = 'putInPoolRemindDays'
+Sql: select status,value from 72crm_admin_config where name = 'expiringContractDays' limit 1
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:05 --------------------------
+Url         : POST /CrmCustomer/getRulesSetting
+Controller  : com.kakarote.crm9.erp.crm.controller.CrmCustomerController.(CrmCustomerController.java:1)
+Method      : getRulesSetting
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.crm.common.CrmInterceptor.(CrmInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql:     select count(*) from 72crm_admin_scene where is_system = 1 and type = ? and user_id = ?
+
+Sql:     select a.scene_id,a.data,a.name,if(b.default_id is null,0,1) as is_default,a.is_system,a.bydata
+    from 72crm_admin_scene as a left join 72crm_admin_scene_default as b on a.scene_id = b.scene_id
+    where a.type = ? and a.user_id = ? and is_hide = 0 order by a.sort asc
+
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:05 --------------------------
+Url         : POST /scene/queryScene
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminSceneController.(AdminSceneController.java:1)
+Method      : queryScene
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+Parameter   : type=4  
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:09 --------------------------
+Url         : OPTIONS /field/queryListHead
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminFieldController.(AdminFieldController.java:1)
+Method      : queryListHead
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql: select count(*) from 72crm_admin_field_sort where user_id = ? and label = ?
+Sql:     select field_name as fieldName,name,type,field_id from 72crm_admin_field_sort where is_hide = 0 and label = ? and user_id = ? order by sort asc
+
+Sql: select * from 72crm_admin_field_style where type = ? and user_id = ?
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:12 --------------------------
+Url         : POST /field/queryListHead
+Controller  : com.kakarote.crm9.erp.admin.controller.AdminFieldController.(AdminFieldController.java:1)
+Method      : queryListHead
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.admin.common.AdminInterceptor.(AdminInterceptor.java:1)
+Parameter   : label=4  
+--------------------------------------------------------------------------------
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:13 --------------------------
+Url         : OPTIONS /CrmProduct/queryPageList
+Controller  : com.kakarote.crm9.erp.crm.controller.CrmProductController.(CrmProductController.java:1)
+Method      : queryPageList
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.crm.common.CrmInterceptor.(CrmInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql:       SELECT role_id FROM 72crm_admin_user_role as a WHERE a.user_id=?
+
+Sql:       SELECT  c.realm,c.menu_id,c.parent_id FROM 72crm_admin_menu as c
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql:       select * from 72crm_admin_menu where parent_id = ?
+
+Sql: select name from 72crm_admin_config where name in ('oa','crm','project') and status = 0
+Sql: SELECT field_name,field_type,type FROM 72crm_admin_field WHERE label=?
+Sql:       select *  FROM (
+        SELECT
+          `a`.*,
+          (SELECT realname FROM 72crm_admin_user WHERE user_id=`a`.`create_user_id`) AS `create_user_name`,
+          (SELECT realname FROM 72crm_admin_user WHERE user_id=`a`.`owner_user_id`) AS `owner_user_name`,
+          `d`.`name` AS `category_name`,
+          `z`.*
+        FROM
+          `72crm_crm_product` as `a`
+          LEFT JOIN `72crm_crm_product_category` `d` ON `a`.`category_id` = `d`.`category_id`
+        JOIN (
+          SELECT
+            b.batch_id as field_batch_id
+                  ,max(CASE WHEN `a`.`name` = 'unit' THEN `a`.`value` END) AS `unit`
+                  ,max(CASE WHEN `a`.`name` = 'on_or_off_the_shelf' THEN `a`.`value` END) AS `on_or_off_the_shelf`
+            FROM 72crm_admin_fieldv AS a RIGHT JOIN (SELECT batch_id FROM 72crm_crm_product as a
+            WHERE 1=1
+               and status != '3'  ORDER BY update_time desc   LIMIT 0,15 
+            ) AS b ON a.batch_id = b.batch_id
+            GROUP BY b.batch_id
+        ) `z` ON `a`.`batch_id` = `z`.`field_batch_id`
+      ) as views
+        where 1=1
+                  ORDER BY
+        update_time desc
+        
+Sql:       SELECT count(1) FROM 72crm_crm_product as a
+      WHERE 1=1
+          and status != '3'
+
+JFinal-4.5 action report -------- 2021-01-06 05:44:16 --------------------------
+Url         : POST /CrmProduct/queryPageList
+Controller  : com.kakarote.crm9.erp.crm.controller.CrmProductController.(CrmProductController.java:1)
+Method      : queryPageList
+Interceptor : com.kakarote.crm9.common.interceptor.CORSInterceptor.(CORSInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.ErpInterceptor.(ErpInterceptor.java:1)
+              com.kakarote.crm9.common.interceptor.AuthInterceptor.(AuthInterceptor.java:1)
+              com.kakarote.crm9.erp.crm.common.CrmInterceptor.(CrmInterceptor.java:1)
+--------------------------------------------------------------------------------
+Sql: select value from 72crm_admin_config where name = 'customerPoolSettingDealDays'
+Sql: update 72crm_task set status = 2 where stop_time < now() and status = 1
+Sql: select value from 72crm_admin_config where name = 'customerPoolSettingFollowupDays'
+Sql: select status from 72crm_admin_config where name = 'customerPoolSetting'
+Sql:     select customer_id from 72crm_crm_customer as ccc
+    WHERE owner_user_id != 0
+        and deal_status = 0
+        and is_lock = 0
+        and ((unix_timestamp(now()) - unix_timestamp(IFNULL((
+		SELECT car.create_time
+		 FROM 72crm_admin_record  as car
+		where
+		car.types = 'crm_customer'
+		and car.types_id = ccc.customer_id
+		ORDER BY car.create_time DESC LIMIT 1),ccc.create_time))) > ? or
+		(unix_timestamp(NOW()) - unix_timestamp((SELECT cors.create_time FROM 72crm_crm_owner_record  as cors
+    where cors.type = 8
+    and cors.type_id = ccc.customer_id and cors.post_owner_user_id = ccc.owner_user_id
+		ORDER BY cors.create_time DESC LIMIT 1))) > ?)
+

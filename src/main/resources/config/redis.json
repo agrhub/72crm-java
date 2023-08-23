@@ -1,0 +1,10 @@
+{
+  "type":1,
+  "remarks": "1 is the stand-alone version, 2 is the cluster cluster, and 3 is the sentinel cluster",
+  "cacheName":"master",
+  "host":[
+    "127.0.0.1:6379"
+  ],
+  "password":"",
+  "database":0
+}

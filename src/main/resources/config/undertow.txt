@@ -1,0 +1,33 @@
+undertow.devMode=true
+# Port
+undertow.port=8080
+# host
+undertow.host=0.0.0.0
+# Turn on gzip compression
+undertow.gzip.enable=true
+# The minimum content length to trigger compression
+undertow.gzip.minLength=2048
+# Configure the compression level, the default value is -1. Configurable from 1 to 9. 1 has the fastest compression speed, 9 has the highest compression rate
+undertow.gzip.level=1
+# Session expiration time, note that the unit is seconds
+undertow.session.timeout=3600
+# Support session hot loading
+undertow.session.hotSwap=true
+undertow.ioThreads=8
+undertow.workerThreads=256
+# Whether to open ssl
+undertow.ssl.enable=false
+# ssl monitor port number, deployment environment is set to 443
+undertow.ssl.port=443
+# When ssl is turned on, whether to turn off http
+undertow.http.disable=false
+# http redirect to https
+undertow.http.toHttps=false
+# Keystore type, PKCS12 is recommended
+undertow.ssl.keyStoreType=PKCS12
+# Keystore file
+undertow.ssl.keyStore=demo.pfx
+# Keystore password
+undertow.ssl.keyStorePassword=123456
+# Alias configuration, generally not used
+undertow.ssl.keyAlias=demo
